@@ -134,10 +134,6 @@
         </div>
         
         
-        <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="menuShare">
-            <i class="icon icon-lg icon-share-alt"></i>
-        </a>
-        
     </div>
 </header>
 <header class="content-header archives-header">
@@ -234,55 +230,9 @@
 <a href="javascript:;" id="gotop" class="waves-effect waves-circle waves-light"><span class="icon icon-lg icon-chevron-up"></span></a>
 
 
-
-<div class="global-share" id="globalShare">
-    <ul class="reset share-icons">
-      <li>
-        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=http://yoursite.com/archives/2015/10/&title=Brywmzl&pic=http://yoursite.com/img/avatar.jpg" data-title="微博">
-          <i class="icon icon-weibo"></i>
-        </a>
-      </li>
-      <li>
-        <a class="weixin share-sns wxFab" href="javascript:;" data-title="微信">
-          <i class="icon icon-weixin"></i>
-        </a>
-      </li>
-      <li>
-        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=http://yoursite.com/archives/2015/10/&title=Brywmzl&source=" data-title=" QQ">
-          <i class="icon icon-qq"></i>
-        </a>
-      </li>
-      <li>
-        <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://yoursite.com/archives/2015/10/" data-title=" Facebook">
-          <i class="icon icon-facebook"></i>
-        </a>
-      </li>
-      <li>
-        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=Brywmzl&url=http://yoursite.com/archives/2015/10/&via=http://yoursite.com" data-title=" Twitter">
-          <i class="icon icon-twitter"></i>
-        </a>
-      </li>
-      <li>
-        <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=http://yoursite.com/archives/2015/10/" data-title=" Google+">
-          <i class="icon icon-google-plus"></i>
-        </a>
-      </li>
-    </ul>
- </div>
-
-
-<div class="page-modal wx-share" id="wxShare">
-    <a class="close" href="javascript:;"><i class="icon icon-close"></i></a>
-    <p>扫一扫，分享到微信</p>
-    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAK4AAACuCAAAAACKZ2kyAAABx0lEQVR42u3aQYrDMAwF0N7/0h2YbSfmS4rdDDyvSqHxaxbC+vLrFa/377r65vPz50qeedvCxcUdc9/LtQZVn1b9k3/sgouLe5C7LjRXm+W/vWLlBlxc3Gdyc8q6wK2fg4uL+7+46xYoOe4kdFxc3Odwk0al2tis25jtvRouLu6AWw1Md3zemO/i4uIWue/iyrfJjzWF3XFxcY9wkwFq9TA0iUiil4KLi/slbh5q9C5eVE8yuLi457k3hJhBY1O9ilGITXFxcTdw86FpPlLtvYLo+bi4uJu5vYKSF6n59azLFAcXF/cId9/odDIlaY5ScHFxb+VW487eE/KGChcX9zw3x+WHnmppK49VcHFxN3N7TUhv9DK/qIGLi/stbu+yVO+v5gcjXFzck9y8AOXbTLhRp4OLi7uZm4eeSWwRhZ7BWOVyd1xc3IPc3vXNatkqB6O4uLhf5VZbnd6xpnowelXfGS4u7k3cakGZXKTojVh65Q8XF3fOnUSi9/42ardwcXEPcnvhRbU6jpofXFzcR3KroWre9hSaIlxc3EdyC8OPuEEqDGNwcXEPcifFpRe85lFIMxbBxcUdcOeBaa+0JYUSFxf3OPcHXJqB2OSCeiUAAAAASUVORK5CYII=" alt="微信分享二维码">
-</div>
-
-
-
-
     <script src="//cdn.bootcss.com/node-waves/0.7.4/waves.min.js"></script>
 <script>
-var BLOG = { ROOT: '/', SHARE: true, REWARD: false };
+var BLOG = { ROOT: '/', SHARE: false, REWARD: false };
 
 
 </script>
@@ -317,23 +267,6 @@ var BLOG = { ROOT: '/', SHARE: true, REWARD: false };
 <script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
 
-
-<script>
-(function() {
-    var OriginTitile = document.title, titleTime;
-    document.addEventListener('visibilitychange', function() {
-        if (document.hidden) {
-            document.title = '死鬼去哪里了！';
-            clearTimeout(titleTime);
-        } else {
-            document.title = '(つェ⊂)咦!又好了!';
-            titleTime = setTimeout(function() {
-                document.title = OriginTitile;
-            },2000);
-        }
-    });
-})();
-</script>
 
 
 

@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-08-24T11:59:53.292Z</updated>
+  <updated>2018-08-24T12:24:01.067Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,25 +17,24 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
-    <link href="http://yoursite.com/2018/08/24/%E4%B8%96%E7%95%8C%E4%BD%A0%E5%A5%BD%EF%BC%81/"/>
-    <id>http://yoursite.com/2018/08/24/世界你好！/</id>
-    <published>2018-08-24T11:31:45.823Z</published>
-    <updated>2018-08-24T11:59:53.292Z</updated>
-    
-    <content type="html"><![CDATA[<p>title: TagEditText<br>date: 2016-11-19 10:44:25<br>tags: [tags1,tags2,tags3]<br>categories: </p><pre><code>- cate</code></pre>]]></content>
+    <title>TagEditText</title>
+    <link href="http://yoursite.com/2016/11/19/%E4%B8%96%E7%95%8C%E4%BD%A0%E5%A5%BD%EF%BC%81/"/>
+    <id>http://yoursite.com/2016/11/19/世界你好！/</id>
+    <published>2016-11-19T02:44:25.000Z</published>
+    <updated>2018-08-24T12:24:01.067Z</updated>
     
     <summary type="html">
     
-      
-      
-        &lt;p&gt;title: TagEditText&lt;br&gt;date: 2016-11-19 10:44:25&lt;br&gt;tags: [tags1,tags2,tags3]&lt;br&gt;categories: &lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;- cate
-&lt;/code&gt;&lt;/pre&gt;
-      
-    
     </summary>
     
+      <category term="cate" scheme="http://yoursite.com/categories/cate/"/>
+    
+    
+      <category term="tags1" scheme="http://yoursite.com/tags/tags1/"/>
+    
+      <category term="tags2" scheme="http://yoursite.com/tags/tags2/"/>
+    
+      <category term="tags3" scheme="http://yoursite.com/tags/tags3/"/>
     
   </entry>
   
